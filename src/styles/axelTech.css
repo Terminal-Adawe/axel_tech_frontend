@@ -1,0 +1,375 @@
+@media(max-width: 786px) {
+
+      .logo {
+            position: fixed;
+            top: 0;
+            margin-top: 16px;
+      }
+
+      nav ul {
+            max-height: 0px;
+            background: #000;
+      }
+
+      nav.black ul {
+            background: #000;
+      }
+
+      .showing {
+            max-height: 34em;
+      }
+
+      nav ul li {
+            box-sizing: border-box;
+            width: 100%;
+            padding: 24px;
+            text-align: center;
+      }
+
+      .menu-icon {
+            display: block;
+      }
+
+}
+
+.centerDiv{
+      position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.title_t{
+      position: absolute;
+    left: 30%;
+    top: 22%;
+    transform: translate(-15%, -30%);
+    width: 50%;
+}
+
+.title_t div .h{
+      color: white;
+      font-size: 84px;
+      font-weight: 500;
+      line-height: 1.2;
+}
+
+.title_t .bt{
+      padding-top: 50px;
+      padding-bottom: 50px;
+      width:  70%;
+}
+
+.title_t div .b{
+      color: white;
+      font-size: 40px;
+      font-weight: 500;
+      line-height: 1.0;
+}
+
+.title_b{
+      padding-top: 18px;
+      padding-bottom: 18px;
+      padding-left: 25px;
+      padding-right: 25px;
+      border-radius: 10px;
+      border: none;
+      background-color: #a93226;
+      color: white;
+}
+
+.title_b:hover{
+      background-color: black;
+      border: 1px solid whitesmoke;
+      transition: 0.6s ease-in;
+}
+
+body{
+      width: 100%;
+      height: 100%;
+}
+
+nav {
+      position: fixed;
+      width: 100%;
+      /*line-height: 60px;*/
+      z-index: 1000;
+}
+
+nav ul {
+      line-height: 60px;
+      list-style: none;
+      background: rgba(0, 0, 0, 0);
+      overflow: hidden;
+      color: black;
+      padding: 0;
+      text-align: right;
+      margin: 0;
+      padding-right: 40px;
+      transition: 1s;
+}
+
+nav.black ul {
+      background: #000;
+}
+
+nav ul li {
+      display: inline-block;
+      padding: 16px 40px;;
+}
+
+nav ul li a {
+      text-decoration: none;
+      color: white;
+      font-size: 16px;
+}
+
+.menu-icon {
+      line-height: 60px;
+      width: 100%;
+      background: #000;
+      text-align: right;
+      box-sizing: border-box;
+      padding: 15px 24px;
+      cursor: pointer;
+      color: #fff;
+      display: none;
+}
+
+.logo {
+      line-height: 60px;
+      position: fixed;
+      float: left;
+      margin: 16px 46px;
+      color: #fff;
+      font-weight: bold;
+      font-size: 20px;
+      letter-spacing: 2px;
+}
+
+.logoImageInscr{
+      border-radius: 9px;
+      opacity: 0.8;
+}
+
+.content-div{
+      background-color: #111212;
+      width: 100%;
+      height: 100%;
+}
+
+.smaller-box{
+      width: 900px;
+      height: 900px;
+      /*borrder: 1px black solid;*/
+}
+
+.services-info{
+      height: 100vh;
+      width: 100vw;
+      /*background-color: #111212;*/
+
+}
+
+.add-board{
+      bottom: 150px;
+      position: relative;
+      width: 90vw;
+      height: 76vh;
+      background-color: white;
+}
+
+.board-left-side{
+      background:
+linear-gradient(27deg, #151515 5px, transparent 5px) 0 5px,
+linear-gradient(207deg, #151515 5px, transparent 5px) 10px 0px,
+linear-gradient(27deg, #222 5px, transparent 5px) 0px 10px,
+linear-gradient(207deg, #222 5px, transparent 5px) 10px 5px,
+linear-gradient(90deg, #1b1b1b 10px, transparent 10px),
+linear-gradient(#1d1d1d 25%, #1a1a1a 25%, #1a1a1a 50%, transparent 50%, transparent 75%, #242424 75%, #242424);
+background-color: #131313;
+background-size: 20px 20px;
+      height: 100%;
+      color: white;
+      position: relative;
+}
+
+.fill{
+      height: 100%;
+      width: 100%;
+}
+
+
+.tab{
+      position: relative;
+       width: 250px;
+       height: 350px;
+       border-radius: 12px;
+}
+
+.tab-a{
+      background-color: #141515;
+      color: white;
+}
+
+.tab h3{
+      color: #5dade2;
+}
+
+.tab-a-1{
+      left: 20%;
+       bottom: 40%;
+}
+
+.tab-a-2{
+      left: 20%;
+       bottom: 135%;
+}
+
+.tab-b{
+      box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+}   
+
+.tab-b-1{
+      left: 53%;
+      bottom: 80%;
+} 
+
+.tab-b-2{
+      left: 53%;
+      bottom: 175%;
+} 
+
+.values{
+      width:  100%;
+      height:  950px;
+}
+
+.values-board{
+      width: 90%;
+      height: 90%;
+      border: 0.5px solid #676c6c;
+}
+
+.value-image-div{
+      border-right: 1px solid #676c6c;
+      background-color: grey;
+      background-position: center;
+      width:  50%;
+      height: 100%;
+      font-size: 35px;
+      color: white;
+      /*text-align: center;*/
+      position: relative;
+}
+
+.values-text{
+      width: 50%;
+      height: 100%;
+      position: relative;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 100px;
+      padding-bottom: 100px;
+      color: #959a9b;
+}
+
+/*Home Stats*/
+
+.stats-container{
+      padding-top: 50px;
+      padding-bottom: 50px;
+}
+
+.stat-box{
+      border-bottom: 5px solid #959a9b;
+      width: 200px;
+      /*height: 210px;*/
+      margin-left: 25px;
+      margin-right: 25px;
+      position: relative;
+      text-align: center;
+      padding-bottom: 30px;
+}
+
+.stat-figure{
+      font-size: 52px;
+      color: #a93226;
+      font-weight: 600;
+}
+
+.stat-title{
+      color: #959a9b;
+}
+
+.stat-image{
+      width: 100%;
+      position: relative;
+      height: 300px;
+      box-shadow: 0 0 8px 8px #111212 inset;
+}
+
+/* Partners */
+
+.partner-div{
+      width:  100%;
+      height:  1400px;
+      padding-top: 50px;
+      padding-bottom: 20px;
+}
+
+.partners-board{
+      width: 85%;
+      height: 150px;
+      /*border: 0.5px solid #676c6c;*/
+}
+
+.partners-board-request-service{
+      width: 90%;
+      height: 900px;
+      border: 0.5px solid #676c6c;
+}
+
+.partner-image-div{
+      border-right: 1px solid #676c6c;
+      background-color: grey;
+      background-position: center;
+      width:  65%;
+      height: 100%;
+      font-size: 35px;
+      color: white;
+      /*text-align: center;*/
+      position: relative;
+}
+
+.partners-text{
+      width: 35%;
+      height: 100%;
+      position: relative;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 100px;
+      padding-bottom: 100px;
+      color: #959a9b;
+}
+
+.partner-box{
+      border: 0.5px solid #676c6c;
+      height: 100%;
+      width: 100%;
+      position: relative;
+      color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -4,6 +4,8 @@ import HomePage from './pages/HomePage'
 import NotFoundPage from './pages/NotFoundPage'
 import { ROUTES } from './resources/routes-constants'
 import './styles/main.sass'
+import './styles/axelTech.css'
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 const RootComponent: React.FC = () => {
     return (
