@@ -12,10 +12,10 @@ const Nav: React.FC = () => {
                </div>
                <div className="menu">
                   <ul>
-                     <li><a href='/login'>Home</a></li>
-                     <li><a href='/login'>Solutions</a></li>
-                     <li><a href='/login'>Visions</a></li>
-                     <li><a href='/login'>Sign In</a></li>
+                     <li><a href='/'>Home</a></li>
+                     <li><a href='/'>Solutions</a></li>
+                     <li><a href='/'>Visions</a></li>
+                     <li><a href='/'>Sign In</a></li>
                   </ul>
                </div>
             </nav>)

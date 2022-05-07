@@ -26,10 +26,12 @@ const HeaderImage: React.FC = () => {
 			<div className="container-fluid" style={ header_i.container }>
 				<div className="title_t">
 					<div>
-						<span className="h">The new standard in data analysis</span>
+						<span className="h">Axel Group</span>
 					</div>
 					<div className="bt">
-						<span className="b">Use Data to Get a 360-Degree View of Your Business</span>
+						<span className="b">
+							Innovative, agile and convenient digital products and services 
+						</span>
 					</div>
 					<div>
 						<button className="title_b">Learn more</button>

@@ -205,6 +205,11 @@ background-size: 20px 20px;
        width: 250px;
        height: 350px;
        border-radius: 12px;
+       padding-top: 20px;
+       padding-bottom: 8px;
+       padding-left: 15px;
+       padding-right: 15px;
+       text-align: center;
 }
 
 .tab-a{
@@ -239,6 +244,10 @@ background-size: 20px 20px;
       left: 53%;
       bottom: 175%;
 } 
+
+.tab-text{
+      bottom: 53px;
+}
 
 .values{
       width:  100%;
@@ -361,6 +370,37 @@ background-size: 20px 20px;
       color: white;
 }
 
+.footer{
+      background-color: #101111;
+      color: #616a6b;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      width: 100%;
+      padding-left: 80px;
+      padding-right: 80px;
+}
+
+.footer a{
+      color: #616a6b;
+      text-decoration: none;
+}
+
+.footer a:hover{
+      color: #2b2e2e;
+      text-decoration: none;
+}
+
+.button_outline{
+      padding-top: 18px;
+      padding-bottom: 18px;
+      padding-left: 25px;
+      padding-right: 25px;
+      border-radius: 10px;
+      border: none;
+      border: 2px white solid;
+      color: #2b2e2e;
+      background-color: none;
+}
 
 
 
