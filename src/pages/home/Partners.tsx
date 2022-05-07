@@ -29,15 +29,15 @@ const Partners: React.FC = () => {
 						<div className="d-flex justify-content-center fill">
 							<div className="partners-board-request-service d-flex align-items-stretch">
 								<div className="partner-image-div" style={{background: `url('/images/redKeyboard.jpg') 100% 100%`}}>
-										<span className="centerDiv">Unprecedented Velocity. Impeccable Reliability.</span>
+										<span className="centerDiv">Are you ready to accelerate your business needs with technology?</span>
 								</div>
 								<div className="partners-text">
 									<span className="centerDiv">
 										<p>
-										Im a paragraph. and I am not going to listen to anything that you say	
+										We envision a future that is driven by technology that offers freedom and flexibility to every demographic. 
 										</p>
 										<p>
-										<button className="title_b">Learn more</button>
+										<button className="title_b">Get Started</button>
 										</p>
 									</span>
 								</div>

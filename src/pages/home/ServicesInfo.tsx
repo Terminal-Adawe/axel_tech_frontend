@@ -31,13 +31,19 @@ const ServicesInfo: React.FC = () => {
 											</div>
 										</div>
 										<div className="col-12">
-											<div className="tab-text">
-												<div className="tab tab-b tab-a-2">
+											<div className="tab tab-b tab-a-2">
+												<div className="tab-text">
+													<h3>Talent</h3>
+													Offers a top notch recruitment service that  strategically matches  high quality, pre-vetted African tech talent with companies or individuals, on a freelance or project basis. 
 												</div>
 											</div>
 										</div>
 										<div className="col-12">
 											<div className="tab tab-a tab-b-2">
+												<div className="tab-text">
+													<h3>Digital Solutions</h3>
+													Provides convenient, accessible, affordable and agile digital solutions to help achieve your needs.
+												</div>
 											</div>
 										</div>
 									</div>

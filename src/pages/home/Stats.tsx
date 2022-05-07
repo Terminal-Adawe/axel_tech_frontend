@@ -7,7 +7,7 @@ const Stats: React.FC = () => {
 					<div className="d-flex justify-content-center">
 						<div className="stat-box">
 							<span className="stat-figure">
-								25
+								20
 							</span>
 							<br />
 							<span className="stat-title">
@@ -25,11 +25,11 @@ const Stats: React.FC = () => {
 						</div>
 						<div className="stat-box">
 							<span className="stat-figure">
-								25M
+								25
 							</span>
 							<br />
 							<span className="stat-title">
-								Products Installed
+								Different Products
 							</span>
 						</div>
 						<div className="stat-box">

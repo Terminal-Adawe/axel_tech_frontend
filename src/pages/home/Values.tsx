@@ -11,7 +11,10 @@ const Values: React.FC = () => {
 						<div className="values-text">
 							<span className="centerDiv">
 								<p>
-								Im a paragraph. and I am not going to listen to anything that you say	
+								We are a technology solution provider that offers innovative, agile and convenient digital products and services in a structured and systematic way, that enhances efficiency and customer satisfaction.
+								</p>
+								<p>
+									a technology solution provider that offers innovative, agile and convenient digital products and services in a structured and systematic way, that enhances efficiency and customer satisfaction.
 								</p>
 								<p>
 								<button className="title_b">Learn more</button>
