@@ -7,9 +7,13 @@ const Footer: React.FC = () => {
 			<div className="container-fluid">
 				<div className="row">
 					<div className="col-lg-3 col-md-4 col-sm-12">
-						<div>Icon</div><br/>
+						<div>
+							<a href='/'>
+								<img src="/images/axelLogo.png" width="65px" />
+							</a>
+						</div><br/>
 						<p>+233557881327</p>
-						<p>axel-tech@axelTech.com</p>
+						<p>axel-tech@axleTech.com</p>
 						<p>Box 2043 Oakland street</p>
 					</div>
 					<div className="col-lg-3 col-md-4 col-sm-12">
@@ -27,7 +31,7 @@ const Footer: React.FC = () => {
 					<div className="col-lg-3 col-md-4 col-sm-12">
 						<p>Follow Us On:</p>
 						<p></p>
-						<p><DateDisplay /></p>
+						<DateDisplay />
 					</div>
 				</div>
 			</div>

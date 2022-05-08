@@ -26,7 +26,7 @@ const HeaderImage: React.FC = () => {
 			<div className="container-fluid" style={ header_i.container }>
 				<div className="title_t">
 					<div>
-						<span className="h">Axel Group</span>
+						<span className="h">Axle Group</span>
 					</div>
 					<div className="bt">
 						<span className="b">

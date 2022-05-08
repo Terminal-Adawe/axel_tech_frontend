@@ -79,7 +79,7 @@ const Visions: React.FC = () => {
 								<div className="visions-image-1">
 									<div className="fill" style={{ background: `url('/images/redKeyboard.jpg')`, backgroundSize: 'cover' }}>
 										<div className="centerDiv">
-											<h3>Axel Technologies</h3>
+											<h3>Axle Technologies</h3>
 										</div>
 									</div>
 								</div>
@@ -91,7 +91,7 @@ const Visions: React.FC = () => {
 								<div className="visions-image-1">
 									<div className="fill" style={{ background: `url('/images/spikes.jpg')`, backgroundSize: 'cover' }}>
 										<div className="centerDiv">
-											<h3>Axel Talent</h3>
+											<h3>Axle Talent</h3>
 										</div>
 									</div>
 								</div>

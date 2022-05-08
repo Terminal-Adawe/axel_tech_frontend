@@ -49,15 +49,8 @@
       }
 
       .tab{
-            position: relative;
-             width: 180px;
+             width: 100px;
              height: 280px;
-             border-radius: 12px;
-             padding-top: 20px;
-             padding-bottom: 8px;
-             padding-left: 15px;
-             padding-right: 15px;
-             text-align: center;
       }
 
       .values{
@@ -113,6 +106,26 @@
             min-height: 400px;
             position: relative;
             /*border: 0.5px solid #676c6c;*/
+      }
+
+      .title_t{
+          top: 32%;
+          transform: translate(-15%, -30%);
+          width: 80%;
+      }
+
+      .title_t div .h{
+            font-size: 64px;
+            font-weight: 500;
+      }
+
+      .title_t div .b{
+            font-size: 30px;
+            font-weight: 500;
+      }
+
+      .footer{
+            font-size: 13px;
       }
 
 }
@@ -209,9 +222,16 @@ nav ul li a {
       font-size: 16px;
 }
 
+Nav a, Nav Link {
+      text-decoration: none;
+      color: white;
+      font-size: 16px;
+      font-weight: 600;
+}
+
 .menu-icon {
       line-height: 60px;
-      width: 100%;
+      /*width: 100%;*/
       background: #000;
       text-align: right;
       box-sizing: border-box;
@@ -263,21 +283,23 @@ nav ul li a {
       position: relative;
       width: 90vw;
       height: 750px;
-      /*background-color: white;*/
+      /*background-color: blue;*/
+      background: none;
 }
 
 .board-left-side{
       background:
-linear-gradient(27deg, #151515 5px, transparent 5px) 0 5px,
-linear-gradient(207deg, #151515 5px, transparent 5px) 10px 0px,
-linear-gradient(27deg, #222 5px, transparent 5px) 0px 10px,
-linear-gradient(207deg, #222 5px, transparent 5px) 10px 5px,
-linear-gradient(90deg, #1b1b1b 10px, transparent 10px),
-linear-gradient(#1d1d1d 25%, #1a1a1a 25%, #1a1a1a 50%, transparent 50%, transparent 75%, #242424 75%, #242424);
-background-color: #131313;
-background-size: 20px 20px;
+      linear-gradient(27deg, #151515 5px, transparent 5px) 0 5px,
+      linear-gradient(207deg, #151515 5px, transparent 5px) 10px 0px,
+      linear-gradient(27deg, #222 5px, transparent 5px) 0px 10px,
+      linear-gradient(207deg, #222 5px, transparent 5px) 10px 5px,
+      linear-gradient(90deg, #1b1b1b 10px, transparent 10px),
+      linear-gradient(#1d1d1d 25%, #1a1a1a 25%, #1a1a1a 50%, transparent 50%, transparent 75%, #242424 75%, #242424);
+      background-color: #131313;
+      background-size: 20px 20px;
+      /*background-color: red;*/
       height: 100%;
-      width: 100%;
+      /*width: 100%;*/
       color: white;
       position: relative;
 }
@@ -287,6 +309,7 @@ background-size: 20px 20px;
       width: 100%;
       position: relative;
       background-color: white;
+      z-index: 10;
 }
 
 .fill{
@@ -328,6 +351,7 @@ background-size: 20px 20px;
 
 .tab-b{
       box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+      background-color: white;
 }   
 
 .tab-b-1{
@@ -339,8 +363,15 @@ background-size: 20px 20px;
       bottom: 0;
 } 
 
+.icon{
+      position: relative;
+      top: 10px;
+
+}
+
 .tab-text{
-      bottom: 53px;
+      top: 53px;
+      position: relative;
 }
 
 .values{
@@ -464,6 +495,8 @@ background-size: 20px 20px;
       position: relative;
       color: white;
 }
+
+/* footer */
 
 .footer{
       background-color: #101111;

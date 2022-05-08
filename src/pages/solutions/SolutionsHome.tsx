@@ -1,5 +1,5 @@
 import React from 'react'
-import Nav from './../Nav'
+import Nav_ from './../Nav'
 import HeaderImage from './../home/HeaderImage'
 import Footer from './../Footer'
 import SolutionsHeader from './SolutionsHeader'
@@ -8,7 +8,7 @@ import Services from './Services'
 const Solutions: React.FC = () => {
 	return (
 			<body>
-            <Nav />
+            <Nav_ />
             <SolutionsHeader />
             <div className="container-fluid content-div">
                 <Services />

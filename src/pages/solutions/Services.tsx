@@ -32,7 +32,7 @@ const Services: React.FC = () => {
 							</div>
 							<div className="col-9">
 								<div className="service-info">
-									<h2>Axel Talent</h2>
+									<h2>Axle Talent</h2>
 									<p>
 										Axle Talent  is a digital platform that matches companies or individuals with high quality, pre-screened and pre-vetted African remote tech talent at a reasonable rate to be hired on a freelance or project basis. 
 									</p>

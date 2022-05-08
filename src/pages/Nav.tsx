@@ -1,31 +1,43 @@
-import React from 'react'
-import { Link } from "react-router-dom"; 
+import React, { useEffect, useRef } from 'react'
+import { Link } from "react-router-dom"
+import { FaAlignJustify } from 'react-icons/fa'
+import { Navbar, Nav, NavDropdown, Container } from 'react-bootstrap';
 
-const Nav: React.FC = () => {
-	return (<nav>
-               <div className="menu-icon">
-                  <i className="fa fa-bars fa-2x"></i>
-               </div>
-               <div className="logo">
-                  <a href='/'>
+const Nav_: React.FC = () => {
+   const navRef = useRef(null)
+
+   // useEffect(() => {
+   //       const div = navRef.current
+   //       div?.addEventListener('scroll', scroll_spy)
+
+   //      return () => div.removeEventListener('scroll', scroll_spy)
+   //  },[div.current])
+
+   // const scroll_spy = () => {
+   //    console.log("scrolling...")
+   //    console.log(div.current)
+   // }
+
+      return (
+            <Navbar fixed="top" expand="lg" ref={navRef} >
+              <Container>
+                <Navbar.Brand href="/">
+                   <a href='/'>
                      <img src="/images/axelLogo.png" width="65px" />
                   </a>
-               </div>
-               <div className="menu">
-                  <ul>
-                     <li>
-                        <Link to="/">Home</Link>
-                     </li>
-                     <li>
-                        <Link to="/solutions">Solutions</Link>
-                     </li>
-                     <li>
-                        <Link to="/visions">Visions</Link>
-                     </li>
-                     <li><a href='/'>Sign In</a></li>
-                  </ul>
-               </div>
-            </nav>)
+                </Navbar.Brand>
+                <Navbar.Toggle aria-controls="basic-navbar-nav" />
+                <Navbar.Collapse id="basic-navbar-nav" className="justify-content-end">
+                  <Nav>
+                    <Nav.Link href="#"><Link to="/">Home</Link></Nav.Link>
+                     <Nav.Link href="#solutions"><Link to="/solutions">Solutions</Link></Nav.Link>
+                     <Nav.Link href="#visions"><Link to="/visions">Visions</Link></Nav.Link>
+                     <Nav.Link href="/">Sign In</Nav.Link>
+                  </Nav>
+                </Navbar.Collapse>
+              </Container>
+            </Navbar>
+         )
 }
 
-export default Nav
+export default Nav_
