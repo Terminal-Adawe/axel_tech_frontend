@@ -3,7 +3,7 @@ import React from 'react'
 const ServicesInfo: React.FC = () => {
 	return (
 			<div className='row services-info'>
-				<div className='d-flex justify-content-center' style={{ width: '100%', height: '100%', position: 'relative' }}>
+				<div className='d-flex justify-content-center'>
 					<div className="add-board">
 						<div className="row" style={{ width: '100%', height: '100%', position: 'relative' }}>
 							<div className="col-lg-5 col-sm-12 board-left-side">
