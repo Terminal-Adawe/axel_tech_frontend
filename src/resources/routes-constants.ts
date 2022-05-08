@@ -1,3 +1,5 @@
 export const ROUTES = {
-    HOMEPAGE_ROUTE: '/'
+    HOMEPAGE_ROUTE: '/',
+    SOLUTIONSPAGE_ROUTE: '/solutions',
+    VISIONSPAGE_ROUTE: '/visions'
 }

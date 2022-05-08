@@ -6,7 +6,7 @@ const Values: React.FC = () => {
 				<div className="d-flex justify-content-center fill">
 					<div className="values-board d-flex align-items-stretch">
 						<div className="value-image-div" style={{background: `url('/images/redPattern.jpg') 100% 100%`}}>
-								<span className="centerDiv">Unprecedented Velocity. Impeccable Reliability.</span>
+								<span className="centerDiv">Discover unprecedented chambers of innovation</span>
 						</div>
 						<div className="values-text">
 							<span className="centerDiv">

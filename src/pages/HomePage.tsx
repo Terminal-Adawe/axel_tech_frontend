@@ -8,6 +8,7 @@ import Stats from './home/Stats'
 import Partners from './home/Partners'
 import Footer from './Footer'
 
+
 const HomePage: React.FC = () => {
     return (
         <body>

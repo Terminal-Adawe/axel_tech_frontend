@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from "react-router-dom"; 
 
 const Nav: React.FC = () => {
 	return (<nav>
@@ -7,14 +8,20 @@ const Nav: React.FC = () => {
                </div>
                <div className="logo">
                   <a href='/'>
-                     <img src="/pics/logo_size_invert.jpg" width="65px" />
+                     <img src="/images/axelLogo.png" width="65px" />
                   </a>
                </div>
                <div className="menu">
                   <ul>
-                     <li><a href='/'>Home</a></li>
-                     <li><a href='/'>Solutions</a></li>
-                     <li><a href='/'>Visions</a></li>
+                     <li>
+                        <Link to="/">Home</Link>
+                     </li>
+                     <li>
+                        <Link to="/solutions">Solutions</Link>
+                     </li>
+                     <li>
+                        <Link to="/visions">Visions</Link>
+                     </li>
                      <li><a href='/'>Sign In</a></li>
                   </ul>
                </div>

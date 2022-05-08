@@ -175,7 +175,7 @@ nav ul li a {
       bottom: 150px;
       position: relative;
       width: 90vw;
-      height: 76vh;
+      height: 750px;
       background-color: white;
 }
 
@@ -191,6 +191,12 @@ background-color: #131313;
 background-size: 20px 20px;
       height: 100%;
       color: white;
+      position: relative;
+}
+
+.board-right-side{
+      height: 100%;
+      width: 100%;
       position: relative;
 }
 
@@ -222,13 +228,13 @@ background-size: 20px 20px;
 }
 
 .tab-a-1{
-      left: 20%;
-       bottom: 40%;
+      left: 0;
+       bottom: 100px;
 }
 
 .tab-a-2{
-      left: 20%;
-       bottom: 135%;
+      left: 0%;
+       bottom: 0%;
 }
 
 .tab-b{
@@ -236,13 +242,12 @@ background-size: 20px 20px;
 }   
 
 .tab-b-1{
-      left: 53%;
-      bottom: 80%;
+      top: 80px;
 } 
 
 .tab-b-2{
-      left: 53%;
-      bottom: 175%;
+      left: 0;
+      bottom: 0;
 } 
 
 .tab-text{
@@ -403,6 +408,131 @@ background-size: 20px 20px;
 }
 
 
+/* Solutions Page */
+
+.servicesPane{
+      position: relative;
+      width: 100%;
+      padding-top: 100px;
+      padding-bottom: 100px;
+      color: white;
+}
+
+.services{
+      bottom: 250px;
+      position: relative;
+      width: 90vw;
+      /*height: 76vh;*/
+      /*padding-top: 400px;*/
+      background-color: #111212;
+      border: 0.5px solid #676c6c;
+      overflow-x: hidden;
+}
+
+.title_s{
+      position: absolute;
+    left: 12%;
+    top: 42%;
+    transform: translate(-15%, -30%);
+    width: 50%;
+    font-size: 45px;
+}
+
+.service-pane{
+      /*padding-top: 100px;
+      padding-bottom: 100px;*/
+      height: 250px;
+      border-bottom: 0.5px solid #676c6c;
+}
+
+.service-icon-column{
+      border-right: 0.5px solid #676c6c;
+      height: 100%;
+      width: 100%;
+      position: relative;
+}
+
+.service-info{
+      padding-top: 50px;
+      padding-left: 80px;
+      padding-right: 80px;
+      padding-bottom: 40px;
+      overflow-y: scroll;
+}
+
+.services-summary{
+      height: 450px;
+      border-bottom: 0.5px solid #676c6c;
+}
+
+.services-info p{
+      color: #b4b6b6;
+}
+
+.service-desc{
+      height: 100%;
+      width: 100%;
+      position: relative;
+      color: #b4b6b6;
+}
+
+/* Visions */
+
+.visionsPane{
+      position: relative;
+      width: 100%;
+      padding-top: 100px;
+      padding-bottom: 100px;
+      color: white;
+}
+
+.visions{
+      bottom: 250px;
+      position: relative;
+      width: 90vw;
+      /*height: 76vh;*/
+      /*padding-top: 400px;*/
+      background-color: #111212;
+      border: 0.5px solid #676c6c;
+      overflow-x: hidden;
+}
+
+.visions-pane{
+      /*padding-top: 100px;
+      padding-bottom: 100px;*/
+      height: 450px;
+      border-bottom: 0.5px solid #676c6c;
+}
+
+.visions-image-1{
+      border-right: 0.5px solid #676c6c;
+      height: 100%;
+      width: 100%;
+      position: relative;
+}
+
+.visions-desc-1{
+      height: 100%;
+      width: 100%;
+      position: relative;
+      color: #b4b6b6;
+}
+
+.title_v{
+      position: absolute;
+    left: 12%;
+    top: 32%;
+    transform: translate(-15%, -30%);
+    width: 50%;
+}
+
+.title_v .h{
+      font-size: 62px;
+}
+
+.title_v p{
+      font-size: 32px;
+}
 
 
 
