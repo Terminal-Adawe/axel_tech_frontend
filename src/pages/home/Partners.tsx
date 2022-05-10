@@ -5,7 +5,7 @@ const Partners: React.FC = () => {
 			<div className="row">
 				<div className="container-fluid partner-div">
 					<div className="row">
-						<div className="col-12">
+						{/*<div className="col-12">
 							<div className="d-flex justify-content-center">
 								<div className="partners-board">
 									<div className="row no-gutters" style={{height: '100%'}}>
@@ -30,7 +30,7 @@ const Partners: React.FC = () => {
 									</div>
 								</div>
 							</div>
-						</div>
+						</div>*/}
 
 						<div className="col-12">
 							<div className="d-flex justify-content-center fill">

@@ -1,135 +1,3 @@
-@media(max-width: 786px) {
-
-      .logo {
-            position: fixed;
-            top: 0;
-            margin-top: 16px;
-      }
-
-      nav ul {
-            max-height: 0px;
-            background: #000;
-      }
-
-      nav.black ul {
-            background: #000;
-      }
-
-      .showing {
-            max-height: 34em;
-      }
-
-      nav ul li {
-            box-sizing: border-box;
-            width: 100%;
-            padding: 24px;
-            text-align: center;
-      }
-
-      .menu-icon {
-            display: block;
-      }
-
-      .add-board{
-            bottom: 150px;
-            position: relative;
-            width: 95vw;
-            padding-bottom: 40px;
-            /*height: 750px;*/
-            background-color: white;
-      }
-
-      .services-info{
-            position: relative;
-            min-height: 1500px;
-            width: 100vw;
-            /*background-color: blue;*/
-            font-size: 12px;
-
-      }
-
-      .tab{
-             width: 100px;
-             height: 280px;
-      }
-
-      .values{
-            width:  100%;
-            height:  350px;
-            font-size: 12px;
-      }
-
-      .v-title{
-            font-size: 20px;      
-      }
-
-      .value-image-div{
-            font-size: 20px;
-      }
-
-      .values-text{
-            width: 50%;
-            height: 100%;
-            position: relative;
-            padding-left: 15px;
-            padding-right: 15px;
-            padding-top: 50px;
-            padding-bottom: 50px;
-            color: #959a9b;
-      }
-
-      .stat-figure{
-            font-size: 40px;
-            color: #a93226;
-            font-weight: 500;
-      }
-
-      .stat-title{
-            color: #959a9b;
-            font-size: 12px;
-      }
-
-      .partner-box .centerDiv{
-            font-size: 12px;
-      }
-
-      .partner-image-div .centerDiv{
-            font-size: 20px;
-      }
-
-      .partners-text{
-            font-size: 12px;
-      }
-
-      .partners-board-request-service{
-            /*width: 90%;*/
-            min-height: 400px;
-            position: relative;
-            /*border: 0.5px solid #676c6c;*/
-      }
-
-      .title_t{
-          top: 32%;
-          transform: translate(-15%, -30%);
-          width: 80%;
-      }
-
-      .title_t div .h{
-            font-size: 64px;
-            font-weight: 500;
-      }
-
-      .title_t div .b{
-            font-size: 30px;
-            font-weight: 500;
-      }
-
-      .footer{
-            font-size: 13px;
-      }
-
-}
-
 .centerDiv{
       position: absolute;
     left: 50%;
@@ -323,7 +191,7 @@ Nav a, Nav Link {
        width: 250px;
        height: 350px;
        border-radius: 12px;
-       padding-top: 20px;
+       padding-top: 25px;
        padding-bottom: 8px;
        padding-left: 15px;
        padding-right: 15px;
@@ -370,42 +238,51 @@ Nav a, Nav Link {
 }
 
 .tab-text{
-      top: 53px;
+      top: 43px;
       position: relative;
 }
 
 .values{
-      width:  100%;
-      height:  950px;
+      padding-top: 50px;
+      padding-bottom: 50px;
 }
 
 .values-board{
-      width: 90%;
-      height: 90%;
+      /*width: 90vw;*/
+      height:  950px;
       border: 0.5px solid #676c6c;
+      position: relative;
+      /*background-color: green;*/
+}
+
+.values-image-col{
+      background-size: cover; 
+      background-position: center; 
+      /*overflow: hidden;*/
+      /*background-color: red;*/
+      width: 100%;
+      height:  950px;
+      position: relative;
+      color: white;
 }
 
 .value-image-div{
-      border-right: 1px solid #676c6c;
-      background-color: grey;
-      background-position: center;
-      width:  50%;
+      width:  100%;
       height: 100%;
       font-size: 35px;
       color: white;
       /*text-align: center;*/
       position: relative;
+      /*border-right: 1px solid #676c6c*/
 }
 
 .values-text{
-      width: 50%;
-      height: 100%;
-      position: relative;
-      padding-left: 50px;
-      padding-right: 50px;
-      padding-top: 100px;
-      padding-bottom: 100px;
       color: #959a9b;
+}
+
+.v-title{
+      font-size: 40px; 
+      color: white;     
 }
 
 /*Home Stats*/
@@ -549,7 +426,7 @@ Nav a, Nav Link {
       /*padding-top: 400px;*/
       background-color: #111212;
       border: 0.5px solid #676c6c;
-      overflow-x: hidden;
+      /*overflow-x: hidden;*/
 }
 
 .title_s{
@@ -580,7 +457,7 @@ Nav a, Nav Link {
       padding-left: 80px;
       padding-right: 80px;
       padding-bottom: 40px;
-      overflow-y: scroll;
+      /*overflow-y: scroll;*/
 }
 
 .services-summary{
@@ -656,6 +533,240 @@ Nav a, Nav Link {
 .title_v p{
       font-size: 32px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Media Queries */
+
+/* Phone screen */
+
+@media(max-width: 786px) {
+
+      .logo {
+            position: fixed;
+            top: 0;
+            margin-top: 16px;
+      }
+
+      nav ul {
+            max-height: 0px;
+            background: #000;
+      }
+
+      nav.black ul {
+            background: #000;
+      }
+
+      .showing {
+            max-height: 34em;
+      }
+
+      nav ul li {
+            box-sizing: border-box;
+            width: 100%;
+            padding: 24px;
+            text-align: center;
+      }
+
+      .menu-icon {
+            display: block;
+      }
+
+      .add-board{
+            bottom: 150px;
+            position: relative;
+            width: 95vw;
+            padding-bottom: 40px;
+            /*height: 750px;*/
+            /*background-color: white;*/
+      }
+
+      .service-pane{
+            height: auto;
+            /*padding-left: 8px;*/
+            /*padding-right: 8px;*/
+      }
+
+      .services-info{
+            position: relative;
+            min-height: 1500px;
+            width: 100vw;
+            /*background-color: none;*/
+            font-size: 16px;
+      }
+
+      .services-info p{
+            font-size: 16px;
+      }
+
+      .service-info{
+            padding-top: 10px;
+            padding-left: 8px;
+            padding-right: 8px;
+            padding-bottom: 10px;
+      }
+
+      .tab{
+             width: 190px;
+             height: 280px;
+             padding-top: 5px;
+      }
+
+      .tab-text{
+            top: 20px;
+      }
+
+
+      .v-title{
+            font-size: 20px; 
+            color: white;     
+      }
+
+      .value-image-div{
+            font-size: 20px;
+      }
+
+      .values-text{
+            width: 100%;
+            height: 100%;
+            position: relative;
+            padding-left: 15px;
+            padding-right: 15px;
+            padding-top: 50px;
+            padding-bottom: 50px;
+            color: #959a9b;
+      }
+
+      .stat-figure{
+            font-size: 30px;
+            color: #a93226;
+            font-weight: 500;
+      }
+
+      .stat-title{
+            color: #959a9b;
+            font-size: 13px;
+      }
+
+      .partner-box .centerDiv{
+            font-size: 16px;
+      }
+
+      .partner-image-div .centerDiv{
+            font-size: 24px;
+      }
+
+      .partners-text{
+            font-size: 16px;
+      }
+
+      .partners-board-request-service{
+            /*width: 90%;*/
+            min-height: 400px;
+            position: relative;
+            /*border: 0.5px solid #676c6c;*/
+      }
+
+      .title_t{
+          top: 32%;
+          transform: translate(-15%, -32%);
+          width: 80%;
+      }
+
+      .title_t div .h{
+            font-size: 50px;
+            font-weight: 500;
+      }
+
+      .title_t div .b{
+            font-size: 25px;
+            font-weight: 500;
+      }
+
+      .footer{
+            font-size: 15px;
+      }
+
+      .values-text{
+            color: #959a9b;
+            font-size: 16px;
+      }
+
+      .values-board{
+            min-height: 100px;
+            padding-top: 50px;
+            padding-bottom: 50px;
+      }
+
+      .values-image-col{
+            min-height: 50px;
+      }
+
+      .service-desc{
+            height: auto;
+            position: relative;
+            color: #b4b6b6;
+      }
+
+      .visions-pane{
+            padding-top: 10px;
+            padding-bottom: 10px;
+            min-height: 450px;
+            border-bottom: 0.5px solid #676c6c;
+      }
+
+      .visions-desc-1{
+            height: 100%;
+            width: 100%;
+            position: relative;
+            color: #b4b6b6;
+      }
+
+      .title_v{
+            position: absolute;
+          left: 15%;
+          top: 42%;
+          transform: translate(-10%, -42%);
+          width: 80%;
+      }
+
+      .title_v p{
+            font-size: 25px;
+      }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

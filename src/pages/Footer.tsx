@@ -12,9 +12,9 @@ const Footer: React.FC = () => {
 								<img src="/images/axelLogo.png" width="65px" />
 							</a>
 						</div><br/>
-						<p>+233557881327</p>
-						<p>axel-tech@axleTech.com</p>
-						<p>Box 2043 Oakland street</p>
+						<p>+233244224424</p>
+						<p>info@axleTech.com</p>
+						{/*<p>Box 2043 Oakland street</p>*/}
 					</div>
 					<div className="col-lg-3 col-md-4 col-sm-12">
 						<p><a href='#'>Home</a></p>
