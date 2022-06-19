@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState, useEffect } from 'react'
 import Nav_ from './../Nav'
 import HeaderImage from './../home/HeaderImage'
 import Footer from './../Footer'
@@ -6,17 +6,16 @@ import SolutionsHeader from './SolutionsHeader'
 import Services from './Services'
 
 const Solutions: React.FC = () => {
+    const [scrolled, setScrolled] = useState(false)
+
 	return (
-			<body>
-            <Nav_ />
-            <SolutionsHeader />
-            <div className="container-fluid content-div">
-                <Services />
-            </div>
-            <Footer />
+			<>
+                <SolutionsHeader />
+                <div className="container-fluid content-div">
+                    <Services />
+                </div>
             {/*<DateDisplay />*/}
-        </body>
-		)
+        </>)
 }
 
 export default Solutions

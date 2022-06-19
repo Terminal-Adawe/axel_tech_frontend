@@ -1,5 +1,6 @@
 import React from 'react'
 import DateDisplay from '../components/DateDisplay'
+import { Link } from "react-router-dom"
 
 const Footer: React.FC = () => {
 	return (
@@ -17,9 +18,9 @@ const Footer: React.FC = () => {
 						{/*<p>Box 2043 Oakland street</p>*/}
 					</div>
 					<div className="col-lg-3 col-md-4 col-sm-12">
-						<p><a href='#'>Home</a></p>
-						<p><a href='#'>Solutions</a></p>
-						<p><a href='#'>Vision</a></p>
+						<p><Link to="/">Home</Link></p>
+						<p><Link to="/solutions">Solutions</Link></p>
+						<p><Link to="/visions">Vision</Link></p>
 						<p><button className="title_b">Learn more</button></p>
 					</div>
 					<div className="col-lg-3 col-md-4 col-sm-12">

@@ -1,5 +1,7 @@
 import React from 'react'
 import {FcOrgUnit} from 'react-icons/fc'
+import { Slide, Fade } from "react-awesome-reveal"
+
 
 const ServicesInfo: React.FC = () => {
 	return (
@@ -9,13 +11,15 @@ const ServicesInfo: React.FC = () => {
 						<div className="row no-gutters" style={{ width: '100%', height: '100%', position: 'relative' }}>
 							<div className="col-lg-5 col-md-4 col-sm-12 order-lg-1 order-md-2 board-left-side">
 								<div className="centerDiv">
-									<h1>Why Axle?</h1>
-									Axle Group is a registered Ghanaian based group of companies that offers innovative, agile and convenient  solutions in the technology, delivery and recruitment sectors. Our goal is to enhance efficiency and customer satisfaction.
+									<Fade triggerOnce>
+										<h1>Why Axle?</h1>
+										<p>Axle Group is a registered Ghanaian based group of companies that offers innovative, agile and convenient  solutions in the technology, delivery and recruitment sectors. Our goal is to enhance efficiency and customer satisfaction.</p>
+									</Fade>
 								</div>
 							</div>
 							<div className="col-lg-7 col-md-8 col-sm-12 order-first order-lg-2 order-md-1 board-right-side">
 									<div className="row">
-										<div className="col-6">
+										<Slide triggerOnce direction="up" className="col-6">
 											<div className="tab tab-a tab-a-1 float-end">
 												<div className="tab-icon">
 													<FcOrgUnit />
@@ -25,8 +29,8 @@ const ServicesInfo: React.FC = () => {
 													Provides convenient, accessible, affordable and agile digital solutions to help achieve your needs.
 												</div>
 											</div>
-										</div>
-										<div className="col-6">
+										</Slide>
+										<Slide triggerOnce direction="right" className="col-6">
 											<div className="tab tab-b tab-b-1">
 												<div className="tab-icon">
 													<FcOrgUnit />
@@ -36,10 +40,10 @@ const ServicesInfo: React.FC = () => {
 													Offers a top notch recruitment service that  strategically matches  high quality, pre-vetted African tech talent with companies or individuals, on a freelance or project basis. 
 												</div>
 											</div>
-										</div>
+										</Slide>
 									</div>
 									<div className="row mt-2">
-										<div className="col-6">
+										<Slide triggerOnce className="col-6">
 											<div className="tab tab-b tab-a-1 float-end">
 												<div className="tab-icon">
 													<FcOrgUnit />
@@ -49,8 +53,8 @@ const ServicesInfo: React.FC = () => {
 													Offers a top notch recruitment service that  strategically matches  high quality, pre-vetted African tech talent with companies or individuals, on a freelance or project basis. 
 												</div>
 											</div>
-										</div>
-										<div className="col-6">
+										</Slide>
+										<Slide triggerOnce direction="up" className="col-6">
 											<div className="tab tab-a tab-b-1">
 												<div className="tab-icon">
 													<FcOrgUnit />
@@ -60,7 +64,7 @@ const ServicesInfo: React.FC = () => {
 													Provides convenient, accessible, affordable and agile digital solutions to help achieve your needs.
 												</div>
 											</div>
-										</div>
+										</Slide>
 									</div>
 							</div>
 						</div>

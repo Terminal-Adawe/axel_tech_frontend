@@ -1,4 +1,5 @@
 import React from 'react'
+import { Slide } from "react-awesome-reveal"
 
 const HeaderImage: React.FC = () => {
 
@@ -25,17 +26,17 @@ const HeaderImage: React.FC = () => {
 	return (
 			<div className="container-fluid" style={ header_i.container }>
 				<div className="title_t">
-					<div>
+					<Slide triggerOnce delay={200} direction="left">
 						<span className="h">Axle Group</span>
-					</div>
-					<div className="bt">
+					</Slide>
+					<Slide triggerOnce delay={300} direction="right" className="bt">
 						<span className="b">
 							Innovative, agile and convenient digital products and services 
 						</span>
-					</div>
-					<div>
+					</Slide>
+					<Slide triggerOnce delay={400} direction="up">
 						<button className="title_b">Learn more</button>
-					</div>
+					</Slide>
 				</div>
 			</div>
 		)

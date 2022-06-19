@@ -1,8 +1,8 @@
 .centerDiv{
       position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%, -50%);
 }
 
 .title_t{
@@ -373,6 +373,15 @@ Nav a, Nav Link {
       color: white;
 }
 
+.scrolled{
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #111111;
+  line-height: 50px;
+  transition: 0.5s ease-in;
+}
+
 /* footer */
 
 .footer{
@@ -421,11 +430,11 @@ Nav a, Nav Link {
 .services{
       bottom: 250px;
       position: relative;
-      width: 90vw;
+      /*width: 100%;*/
       /*height: 76vh;*/
       /*padding-top: 400px;*/
       background-color: #111212;
-      border: 0.5px solid #676c6c;
+      /*border: 0.5px solid #676c6c;*/
       /*overflow-x: hidden;*/
 }
 
@@ -442,18 +451,23 @@ Nav a, Nav Link {
       /*padding-top: 100px;
       padding-bottom: 100px;*/
       height: 250px;
-      border-bottom: 0.5px solid #676c6c;
+      /*border-bottom: 0.5px solid #676c6c;*/
+      overflow-y: scroll;
 }
 
 .service-icon-column{
-      border-right: 0.5px solid #676c6c;
+      /*border-right: 0.5px solid #676c6c;*/
       height: 100%;
       width: 100%;
       position: relative;
 }
 
+.s-col{
+      border: 0.5px solid #676c6c;
+}
+
 .service-info{
-      padding-top: 50px;
+      padding-top: 80px;
       padding-left: 80px;
       padding-right: 80px;
       padding-bottom: 40px;
@@ -481,8 +495,8 @@ Nav a, Nav Link {
 .visionsPane{
       position: relative;
       width: 100%;
-      padding-top: 100px;
-      padding-bottom: 100px;
+      /*padding-top: 100px;*/
+      /*padding-bottom: 100px;*/
       color: white;
 }
 
@@ -500,13 +514,13 @@ Nav a, Nav Link {
 .visions-pane{
       /*padding-top: 100px;
       padding-bottom: 100px;*/
-      height: 450px;
-      border-bottom: 0.5px solid #676c6c;
+      /*height: 450px;*/
+      /*border-bottom: 0.5px solid #676c6c;*/
 }
 
 .visions-image-1{
-      border-right: 0.5px solid #676c6c;
-      height: 100%;
+      /*border-right: 0.5px solid #676c6c;*/
+      height: 450px;
       width: 100%;
       position: relative;
 }
@@ -751,6 +765,10 @@ Nav a, Nav Link {
 
       .title_v p{
             font-size: 25px;
+      }
+
+      .services-summary{
+            min-height: 600px;
       }
 
 }

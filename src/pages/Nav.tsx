@@ -1,25 +1,18 @@
-import React, { useEffect, useRef } from 'react'
+import React, { useRef } from 'react'
 import { Link } from "react-router-dom"
 import { FaAlignJustify } from 'react-icons/fa'
 import { Navbar, Nav, NavDropdown, Container } from 'react-bootstrap';
 
-const Nav_: React.FC = () => {
+type Props = {
+   scrolled: boolean
+}
+
+
+const Nav_: React.FC<Props> = ({scrolled}) => {
    const navRef = useRef(null)
 
-   // useEffect(() => {
-   //       const div = navRef.current
-   //       div?.addEventListener('scroll', scroll_spy)
-
-   //      return () => div.removeEventListener('scroll', scroll_spy)
-   //  },[div.current])
-
-   // const scroll_spy = () => {
-   //    console.log("scrolling...")
-   //    console.log(div.current)
-   // }
-
       return (
-            <Navbar fixed="top" expand="lg" ref={navRef} >
+            <Navbar fixed="top" expand="lg" ref={navRef} className={scrolled==true ? 'scrolled' : ''}>
               <Container>
                 <Navbar.Brand href="/">
                    <a href='/'>

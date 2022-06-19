@@ -1,4 +1,5 @@
 import React from 'react'
+import { Fade } from "react-awesome-reveal"
 
 const Values: React.FC = () => {
 	// style={{background: `url('/images/redPattern.jpg') 100% 100%`}}
@@ -37,10 +38,10 @@ const Values: React.FC = () => {
 
 	return (
 			<div className="row values justify-content-center">
-				<div className="col-md-5 col-sm-12 values-image-col" style={{ background: `url('/images/redPattern.jpg') 100% 100%`, border: `0.5px solid #676c6c` }}>
+				<Fade delay={300} className="col-md-5 col-sm-12 values-image-col" style={{ background: `url('/images/redPattern.jpg') 100% 100%`, border: `0.5px solid #676c6c` }}>
 					<span className="centerDiv"><h1>Discover unprecedented chambers of innovation</h1></span>
-				</div>
-				<div className="col-md-5 col-sm-12 values-board" >
+				</Fade>
+				<Fade delay={400} className="col-md-5 col-sm-12 values-board" >
 					<div className="centerDiv values-text">
 						<p>
 						We are a technology solution provider that offers innovative, agile and convenient digital products and services in a structured and systematic way, that enhances efficiency and customer satisfaction.
@@ -52,7 +53,7 @@ const Values: React.FC = () => {
 							<button className="title_b">Learn more</button>
 						</p>
 					</div>
-				</div>
+				</Fade>
 			</div>
 		)
 }
